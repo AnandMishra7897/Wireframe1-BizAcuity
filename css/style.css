@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo img {
+    width: 152px;
+    height: 74px;
+    margin-left: 318px;
+    margin-top:10px;
+}
+#header{
+    display:flex;
+    background-color: #dddddd;
+}
+#header #searchBox{
+    padding:4px;
+    margin: 20px;
+
+}
+#header input{
+    width: 48vw;
+    height: 25px;
+    border-radius: 13px;
+    text-align: center;
+}
+.material-icons{
+    padding-top: 26px;
+}
+#header .contact{
+    width: 120px;
+    height: 32px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #0C4CA4;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+#mainBody{
+    display:flex;
+}
+.box{
+    height: 85vh;
+}
+#navbar{
+    width:9vw;
+}
+#content{
+    width:91vw;
+}
+#navbar ul{
+    font-family: 'Baloo Bhai', cursive;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 22px;
+    color: Black;
+}
+ #content h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 33px;
+    margin-top:16px;
+}
+#content p{
+    text-align:center;
+    padding: -1px;
+    margin: 9px;
+}
+
+
+#services{
+    /* margin: 34px; */
+    display: flex;
+}
+#services-container h1{
+    text-align:center;
+    font-size:33px;
+    padding:20px;
+}
+#services .box1{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box1 img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box1 p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+#footer{
+    background-color: black;
+    height: 5vh;
+}
+#footer .finalTouch{
+    color: white;
+    text-align: center;
+    padding-top:12px;
+}
+
